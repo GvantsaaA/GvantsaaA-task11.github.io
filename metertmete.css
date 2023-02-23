@@ -1,0 +1,1101 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2B2B2B;
+}
+
+@font-face {
+    font-family: "worksans";
+    src: url(WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: "space";
+    src: url(SpaceMono-Bold.ttf);
+}
+@media only screen and (max-width: 992px) {
+    .marketpl{
+        display: none !important;
+    }
+    .rankings{
+        display: none !important;
+    }
+    .connectawallet{
+        display: none !important;
+    }
+    .btn{
+        display: none !important;
+    }
+    .burger-menu{
+        display: inline-block !important;
+    }
+    .discover-digital > h1{
+        font-family: "worksans";
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 28px !important;
+        line-height: 140% !important;
+        color: #FFFFFF !important;
+       
+    }
+    .sec1-p1 > p{
+        font-family: "worksans";
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 140% !important;
+        color: #FFFFFF !important;
+    }
+    .sec1-gif{
+        display: none !important;
+    }
+    .hidden-gif{
+        display: inline-block !important;
+    }
+    .footer{
+        width: 315px !important;
+
+    }
+    .container{
+        margin-top: 0 !important;
+    }
+    .sec1-card{
+        display: inline-block !important;
+        margin-top: 40px !important;
+        margin-left: auto !important;
+        height: 206px !important;
+    }
+   
+    .sec1-button1-m > button{
+        width: 315px !important;
+        height: 60px !important;
+        background: #A259FF;
+        border-radius: 20px;
+        color: #FFFFFF !important;
+        border: none !important;
+        
+    }
+    .sec1-button1-m{
+        display: inline-block !important;
+    } 
+    .eich4{
+        font-size: 22px !important;
+    }
+    .spanush{
+        font-size: 16px !important;
+        line-height: 140% !important;
+        color: #FFFFFF !important;
+    }
+    .sec2-header{
+        margin-top: 177px !important;
+    }
+    .sec2-header > h3{
+        font-size: 28px !important;
+    }
+    .sec2-header > p{
+        font-size: 16px !important;
+    }
+    .not-displayed{
+        display: none;
+    }
+    .sec3-row1{
+        margin-top: 80px !important;
+    }
+    .sec3-header > h3{
+        font-size: 28px !important;
+    }
+    .sec3-header > p{
+        font-size: 16px !important;
+    }
+    .ttr{
+        display: inline-block !important;
+    }
+    .mddevice-profiles{
+        display: none !important;
+    }
+    .ranking-number{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        color: #858584;
+        background: #2B2B2B;
+        border-radius: 20px;
+    }
+    .sec4-div1 > h3{
+        font-size: 28px !important;
+    }
+    .sec4-row2{
+        display: none !important;
+    }
+    .iconboxes{
+        display: inline-block !important;
+    }
+    .sec3-hidden-but{
+        display: inline-block !important;
+    }
+    .hidden-button{
+        display: inline-block !important;
+    }
+    .hidden-button > button{
+        padding: 0px 50px;
+        gap: 12px;
+        width: 315px;
+        height: 60px;
+        border: 2px solid #A259FF;
+        border-radius: 20px;
+        background-color: #2B2B2B;
+        color: #FFFFFF;
+        font-family: 'worksans';
+    }
+    .sec5-row1-h3{
+        font-size: 28px !important;
+    }
+    .sec5-span1{
+        font-size: 16px !important;
+    }
+    .sec5-row2{
+        display: none !important;
+    }
+    .sec5-row3{
+        display: inline-block !important;
+    }
+    .nft-card{
+        width: 315px !important;
+        height: 402px !important;
+    }
+    .pricee{
+        font-size: 12px !important;
+    }
+    .sec6-backimage1{
+        background-image: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%),
+        url(./images/NFT_Highlight-sm.png) !important;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+    .sec6-backimage1{
+        display: inline-block !important;
+    }
+    .sec6-backimage{
+        display: none !important;
+    }
+    .nft-content{
+        margin-top: 120px !important;
+    }
+    .Auction-timer{
+        margin-top: 30px !important;
+        width: 315px !important;
+        height: 144px !important;
+    }
+    .bottom-container{
+        padding-bottom: 0px !important;
+    }
+    .sec6but{
+        padding: 22px 50px;
+        gap: 12px;
+        width: 315px;
+        height: 60px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        border: none;
+        font-family: 'WorkSans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        color: #2B2B2B;
+    }
+    .magic-mashroom > h2{
+        font-size: 38px !important;
+    }
+    .sec5-hidden-button{
+        display: inline-block !important;
+    }
+    .sec5-hidden-button > button{
+        padding: 0px 50px;
+        gap: 12px;
+        width: 315px;
+        height: 60px;
+        border: 2px solid #A259FF;
+        border-radius: 20px;
+        background-color: #2B2B2B;
+        color: #FFFFFF;
+        font-family: 'worksans';
+    }
+    .sec7-row2{
+        display: none !important;
+    }
+    .sec7-row-sm{
+        display: inline-block !important;
+    }
+    .sec7-sm-card{
+        background: #3B3B3B;
+        border-radius: 20px;
+    }
+    .sec7-header > h3{
+        font-size: 28px !important;
+    }
+    .sec7-header > span{
+        font-size: 16px !important;
+    }
+    .sec8-row{
+        display: none !important;
+    }
+    .sec8-sm-row{
+        display: inline-block !important;
+    }
+    .sec9-row{
+        display: none !important;
+    }
+    .norma{
+        font-family: 'WorkSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 110%;
+        color: #CCCCCC;
+    }
+    .sec9-sm-row{
+        display: inline-block !important;
+    }
+    .end1{
+        display: inline-block !important;
+    }
+    .sec9-sm-row{
+       border-bottom: 1px solid #858584;
+    }
+}
+
+
+
+.txt > h4{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.txt > span{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.inpt-group8 > input{
+    padding: 16px 20px;
+    gap: 12px;
+    width: 315px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid #858584;
+    border-radius: 20px;
+}
+
+.inpt-group8 > button{
+    padding: 0px 50px;
+    gap: 12px;
+    width: 315px;
+    height: 46px;
+    background: #A259FF;
+    border-radius: 20px;
+    border: 1px solid #A259FF;
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card-details-sm{
+    align-items: flex-start;
+}
+
+.card-span1{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.card-span2{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.storefron{
+    font-family: "worksans";
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.marketpl{
+    font-family: "Worksans";
+    font-style: normal;
+    
+    font-size: 16px;
+    line-height: 140%;
+    
+}
+.marketpl > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.ranking{
+    font-family: "Worksans";
+    font-style: normal;
+    
+    font-size: 16px;
+    line-height: 140%;
+}
+.ranking > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.connectawalle{
+    font-family: "Worksans";
+    font-style: normal;
+    
+    font-size: 16px;
+    line-height: 140%;
+}
+.connectawalle > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.btn{
+    font-family: "Worksans";
+    font-style: normal;
+    color: #FFFFFF;
+    width: 152px !important;
+    height: 60px !important;
+    background: #A259FF !important;
+    border-radius: 20px !important;
+    font-size: 16px;
+    line-height: 140%;
+}
+.btn > a{
+    text-decoration: none;
+}
+
+.discover-digital > h1{
+    font-family: "worksans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 110%;
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+.sec1-text{
+    width: 510px;
+    height: 544px;
+}
+
+.sec1-p1{
+    font-family: "worksans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
+
+.sec1-button > button{
+    gap: 12px;
+    width: 224px !important;
+    height: 60px !important;
+}
+.sec1-total > h4{
+    font-family: "space";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    color: #FFFFFF;
+
+}
+.sec1-total > span{
+    font-family: "worksans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.99px;
+    line-height: 160%;
+    color: #FFFFFF;
+
+}
+
+.sec1-auctions > h4{
+    font-family: "space";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    color: #FFFFFF;
+
+}
+.sec1-auctions > span{
+    font-family: "worksans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.99px;
+    line-height: 160%;
+    color: #FFFFFF;
+
+}
+
+.sec1-artists > h4{
+    font-family: "space";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    color: #FFFFFF;
+
+}
+.sec1-artists > span{
+    font-family: "worksans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.99px;
+    line-height: 160%;
+    color: #FFFFFF;
+
+}
+
+.sec1-card{
+    margin-left: 60px;
+    height: 401px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #2B2B2B;
+}
+
+.sec1-card > .footer{
+    background-color: #3B3B3B;
+    gap: 10px;
+    padding: 20px;
+    width: 510px;
+    height: 109px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.footer > p{
+    font-family: "worksans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    color: #FFFFFF
+}
+
+.footer > span{
+    margin-left: 7px;
+    gap: 12px;
+    width: 470px;
+    height: 24px;
+    border-radius: 20px;
+    font-family: "worksans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.sec2-row1{
+    margin-top: 160px;
+}
+.sec2-header > h3{
+    font-family: "worksans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.sec2-header > p{
+    font-family: "worksans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF; 
+}
+.raod{
+    margin-left: 15px;
+    gap: 10px;
+    width: 100px;
+    height: 100px;
+    background: #A259FF;
+    border-radius: 20px;
+}
+.raod > h5{
+    font-family: "space";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+    
+}
+
+.bolonaw1{
+    margin-top: 15px;
+}
+.bolonaw2{
+    margin-top: 15px;
+}
+.bolonaw3{
+    margin-top: 15px;
+}
+.bolonawh5{
+    font-family: "worksans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    color: #FFFFFF
+}
+.bolonawspan{
+    font-family: "worksans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+
+
+.sec3-row1{
+    margin-top: 160px;
+}
+.sec3-header > h3{
+    font-family: "worksans";
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.sec3-header > p{
+    font-family: "worksans";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.sec3-button > button{
+    gap: 12px !important;
+    width: 247px !important;
+    height: 60px !important;
+    background-color: #2B2B2B !important;
+    border: 2px solid #A259FF !important;
+    border-radius: 20px !important;
+}
+
+.profiles{
+    gap: 20px;
+    width: 240px;
+    height: 238px;
+
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+.nomeri{
+    font-family: 'worksans';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #858584;
+    width: 30px;
+    height: 30px;
+    background: #2B2B2B;
+    border-radius: 20px;
+}
+.sec3-prof{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.profh5{
+    margin-top: 15px;
+    font-family: 'worksans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.prof-span1{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    text-align: right;
+    color: #858584;
+
+}
+.prof-span2{
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+
+.sec4-div1 > h3{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    color: #FFFFFF;
+
+}
+.sec4-row1{
+    margin-top: 160px;
+}
+.iconbox1-img1 > h3{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+.iconbox{
+    width: 240px;
+    height: 316px;
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+
+.iconbox1-h5 {
+    margin-left: 30px;
+    
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+}
+
+
+.sec5-row1{
+    margin-top: 160px;
+}
+.sec5-row1-h3{
+    font-family: 'WorkSans';
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.sec5-span1{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.sec5-but{
+    gap: 12px !important;
+    width: 187px !important;
+    height: 60px !important;
+    border: 2px solid #A259FF !important;
+    border-radius: 20px !important;
+    font-family: 'WorkSans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 140% !important;
+    color: #FFFFFF !important;
+    background-color: #2B2B2B !important;
+}
+
+.nft-card{
+    width: 330px;
+    height: 469px;
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+.nft-name{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.nft-artist{
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.price{
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    color: #858584;
+}
+.pricee{
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.nft-card-text{
+    margin-left: 30px;
+}
+.nft-artist{
+    margin-left: 12px;
+}
+.second-part{
+    margin-left: 91px;
+}
+
+
+.sec6-backimage{
+    margin-top: 80px;
+    background-image: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%),
+    url(./images/NFT_Highlight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nft-content{
+    margin-top: 360px;
+}
+.nft-artist-card{
+    gap: 12px;
+    width: 151px;
+    height: 44px;
+    background: #3B3B3B;
+    border-radius: 20px;
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.magic-mashroom > h2{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;  
+    color: #FFFFFF;
+}
+.magic-mashroom > button{
+    gap: 12px !important;
+    width: 198px !important;
+    height: 60px !important;
+    background: #FFFFFF !important;
+    border-radius: 20px !important;
+    font-family: 'WorkSans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 140% !important;
+    color: #2B2B2B !important;
+    }
+
+.Auction-timer{
+    gap: 10px;
+    width: 295px;
+    height: 144px;
+    background: rgba(59, 59, 59, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+.bottom-container{
+    padding-bottom: 60px;
+}
+
+.end-time{
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+.hour{
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.hours{
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.Auction-timer-content{
+    margin-left: 30px;
+}
+
+.timer{
+    margin-right: 10px;
+}
+.dots > span{
+    margin-right: 10px;
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.sec7-row1{
+    margin-top: 80px;
+}
+.sec7-header > h3{
+    font-family: 'Worksans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.sec7-header > span{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.sec7-card{
+    gap: 20px;
+    width: 330px;
+    height: 439px;
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+.sec7-h5{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.sec7-detail{
+    width: 270px;
+    height: 88px;
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.sec7-cards{
+    gap: 30px;
+}
+
+.sec8{
+    padding-bottom: 80px;
+}
+.sec8-row{
+    margin-top: 120px;
+}
+
+.box{
+    height: 430px;
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+
+
+.weekly-digest > h3{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.weekly-digest > span{
+    margin-top: 15px;
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;   
+}
+
+.input{
+    position: relative;
+    gap: 12px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.email{
+    padding: 18px 20px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 100%;
+    border: transparent;
+}
+
+.sec8-but{
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    gap: 12px !important;
+    width: 211px !important;
+    height: 60px !important;
+    background: #A259FF !important;
+    border-radius: 20px !important;
+}
+
+.box{
+    gap: 80px;
+}
+
+.sec9{
+    background-color: #3B3B3B;
+}
+
+.sec9-span{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #CCCCCC;
+}
+.sec9-span1{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #CCCCCC;
+}
+
+.nftmarket{
+    
+    font-family: 'Space';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.normal{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #CCCCCC;
+}
+
+.foot{
+    padding-bottom: 35px;
+}
+
+.end{
+    border-top:  1px solid #858584;
+}
+
+
+    /*End of desktop version */
+
+
+.artist-into{
+    isolation: isolate;
+    width: 60px;
+    height: 60px;
+}
+
+.smdevice-profile{
+    height: 100px;
+    width: 315px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+
+.sm-prof-name{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.side-content{
+    margin-left: 20px;
+}
+
+.iconbox-sm{
+    width: 147.5px;
+    height: 209px;   
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+
+.icontextt{
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
